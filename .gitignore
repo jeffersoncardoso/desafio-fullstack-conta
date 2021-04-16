@@ -1,0 +1,28 @@
+/conta-warren/.DS_Store
+/conta-warren/node_modules
+/conta-warren/dist
+
+# local env files
+/conta-warren/.env.local
+/conta-warren/.env.*.local
+
+# Log files
+/conta-warren/npm-debug.log*
+/conta-warren/yarn-debug.log*
+/conta-warren/yarn-error.log*
+/conta-warren/pnpm-debug.log*
+
+# Editor directories and files
+/conta-warren/.idea
+/conta-warren/.vscode
+/conta-warren/*.suo
+/conta-warren/*.ntvs*
+/conta-warren/*.njsproj
+/conta-warren/*.sln
+/conta-warren/*.sw?
+
+/conta-api/build
+/conta-api/.env
+/conta-api/node_modules
+/conta-api/.empty
+/conta-api/upstream
