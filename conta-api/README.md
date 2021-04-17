@@ -60,5 +60,5 @@ get('/account/:id/accountsForPayment)
 ```
 
 ## Funcionalidade de Rendimento
-- Para calcular rendimentos para as contas foi criada a classe [CdbStrategy](conta-api/src/domain/entities/Account/Profit/CdbStrategy.ts) que simula um CDB que rende 0,5%
+- Para calcular rendimentos para as contas foi criada a classe [CdbStrategy](src/domain/entities/Account/Profit/CdbStrategy.ts) que simula um CDB que rende 0,5%
 - Para ativar o calculo automático foi criada uma estrutura básica de cron que deve ser ativada no arquivo .env setando a variável CRON_PROFIT = 1
