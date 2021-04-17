@@ -1,0 +1,14 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+body {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.app-container {
+    @extend .container-fluid;
+    @extend .mt-2;
+    max-width: 700px; 
+    margin:auto;
+}
