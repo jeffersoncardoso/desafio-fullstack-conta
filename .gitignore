@@ -25,4 +25,6 @@
 /conta-api/.env
 /conta-api/node_modules
 /conta-api/.empty
+/conta-api/.vscode
 /conta-api/upstream
+/conta-api/coverage

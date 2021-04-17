@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "allowJs": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./build",
+      "sourceMap": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "resolveJsonModule": true,
+      "baseUrl": "./",
+      "paths": {
+        "@controllers/*": ["src/controllers/*"],
+        "@entities/*": ["src/domain/entities/*"],
+        "@value-objects/*": ["src/domain/value-objects/*"],
+        "@repositories/*": ["src/domain/repositories/*"],
+        "@services/*": ["src/domain/services/*"],
+        "@schemas/*": ["src/infra/database/schemas/*"],
+        "@migrations/*": ["src/infra/database/migrations/*"],
+        "@domain/*": ["src/domain/*"],
+        "@database/*": ["src/infra/database/*"],
+        "@docs/*": ["src/docs/*"]
+      }
+    },
+    "include": [
+      "**/*.ts"
+    ]
+}
