@@ -1,5 +1,9 @@
 # conta-warren
 
+## Sobre o projeto
+- Sistema de controle de conta corrente bancária, processando solicitações de depósito, resgates e pagamentos.
+- Projeto construido para o processo seletivo da empresa [Warren](https://warren.com.br/)
+
 ## Arquitetura do projeto
 - Ver [Arquitetura API](conta-api/README.md).
 - Ver [Arquitetura Cliente](conta-warren/README.md).
