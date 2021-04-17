@@ -1,24 +1,41 @@
 # conta-warren
 
-## Project setup
+## Sobre o projeto
+- Single page application para gerenciamento de contas, criada para o desafio fullstack para entrevista da Warren
+
+## Tecnologias utilizadas
+- Vue CLI - Componentes e estrutura da aplicação
+- Jest - Biblioteca para construção de testes
+- Vue Test Utils - Biblioteca para auxiliar em testes de componentes Vue
+- Bootstrap - Framework frontend para facilitar construção do deploy
+- Axios - Biblioteca para realizar requisições HTTP
+
+## Executar o projeto
+- Instalar dependências
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+- Iniciar servidor
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run dev
 ```
 
-### Lints and fixes files
+## Arquitetura do projeto
+- Arquitetura baseada no Vue, utilizando componentes pequenos e independentes
+- As views se localizam na pasta /src/views
+- Os componentes se localizam na pasta /src/componentes
+- Os componentes wrappers de elementos básicos do html (botões, inputs, etc.) estão na pasta /src/componentes/elements
+
+## Executar testes unitários
 ```
-npm run lint
+npm run test:unit
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Funcionalidades
+- Tela inicial
+- Cadastro de conta clicando no botão +
+- Tela de Cadastro da Conta
+- Depositar dinheiro
+- Pagar dinheiro
+- Resgatar dinheiro
+- Gerar extrato no ícone de documento
