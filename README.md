@@ -11,9 +11,11 @@
 ## Rodar projeto
 ```
 cd conta-api
+npm install
 npm run dev
 
 cd conta-warren
+npm install
 npm run dev
 ```
 - Leia mais em [API](https://github.com/jeffersoncardoso/desafio-fullstack-conta/tree/master/conta-api#executar-o-projeto) e [SPA](https://github.com/jeffersoncardoso/desafio-fullstack-conta/tree/master/conta-warren#executar-o-projeto)
