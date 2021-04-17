@@ -3,8 +3,6 @@
 /conta-warren/dist
 
 # local env files
-/conta-warren/.env.local
-/conta-warren/.env.*.local
 
 # Log files
 /conta-warren/npm-debug.log*
@@ -22,7 +20,6 @@
 /conta-warren/*.sw?
 
 /conta-api/build
-/conta-api/.env
 /conta-api/node_modules
 /conta-api/.empty
 /conta-api/.vscode
