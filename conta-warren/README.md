@@ -7,7 +7,7 @@
 - Vue CLI - Componentes e estrutura da aplicação
 - Jest - Biblioteca para construção de testes
 - Vue Test Utils - Biblioteca para auxiliar em testes de componentes Vue
-- Bootstrap - Framework frontend para facilitar construção do deploy
+- Bootstrap - Framework frontend para facilitar construção do layout das telas
 - Axios - Biblioteca para realizar requisições HTTP
 
 ## Executar o projeto
